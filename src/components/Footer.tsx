@@ -61,20 +61,23 @@ export function Footer() {
             <ul className="space-y-3 text-sm text-primary-100">
               <li>
                 <a
-                  href="/privacy"
+                  href="https://iwilltilimwell.com/privacy-policy/"
                   className="hover:text-white transition-colors"
                 >
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="/terms" className="hover:text-white transition-colors">
-                  Terms of Service
+                <a
+                  href="https://iwilltilimwell.com/terms-conditions/"
+                  className="hover:text-white transition-colors"
+                >
+                  Terms & Conditions
                 </a>
               </li>
               <li>
                 <a
-                  href="/insurance-disclaimer"
+                  href="https://iwilltilimwell.com/insurance-disclaimer/"
                   className="hover:text-white transition-colors"
                 >
                   Insurance Disclaimer
