@@ -76,7 +76,7 @@ export function Header() {
           </Button>
           <Button
             variant="outline"
-            className="hidden sm:inline-flex"
+            className="hidden sm:inline-flex bg-green-500 text-white"
             onClick={() =>
               window.open(paypalDonateUrl, "_blank", "noopener,noreferrer")
             }
