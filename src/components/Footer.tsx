@@ -124,8 +124,7 @@ export function Footer() {
               programs are not insurance.
             </p>
             <p className="text-sm text-primary-300">
-              © {new Date().getFullYear()} iWILL 'til I'm Well. All rights
-              reserved.
+              © 2026 iWILL 'til I'm Well. All rights reserved.
             </p>
           </div>
         </div>

@@ -163,7 +163,7 @@ export function UnlockForm() {
               </div>
             </div>
 
-            <div className="mb-8 p-4 bg-white border border-primary-100 rounded-xl text-left">
+            {/* <div className="mb-8 p-4 bg-white border border-primary-100 rounded-xl text-left">
               <p className="text-sm text-gray-600 mb-3 flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary" aria-hidden="true" />
                 This code has also been emailed to{" "}
@@ -173,7 +173,7 @@ export function UnlockForm() {
                 <strong>Next step:</strong> Click below to continue to sign up.
                 The promo code will be pre-filled at checkout.
               </p>
-            </div>
+            </div> */}
 
             <Button
               variant="accent"

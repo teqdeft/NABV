@@ -14,6 +14,7 @@ export function Header() {
               alt="iWILL 'til I'm Well"
               height={60}
               width={200}
+              className="h-full w-auto"
               priority
             />
           </div>
@@ -23,27 +24,49 @@ export function Header() {
               alt="NABV - National Association of Veterinary Business"
               height={24}
               width={74}
+              className="h-full w-auto"
             />
           </div>
         </div>
 
         <nav className="hidden xl:flex items-center gap-2 shrink-0">
-          <a href="#features" className="text-sm font-medium text-primary hover:text-primary-800 transition-colors">
+          <a
+            href="#features"
+            className="text-sm font-medium text-primary hover:text-primary-800 transition-colors"
+          >
             What's Included
           </a>
-          <a href="#pricing" className="text-sm font-medium text-primary hover:text-primary-800 transition-colors">
+          <a
+            href="#pricing"
+            className="text-sm font-medium text-primary hover:text-primary-800 transition-colors"
+          >
             Pricing
           </a>
-          <a href="#faq" className="text-sm font-medium text-primary hover:text-primary-800 transition-colors">
+          <a
+            href="#faq"
+            className="text-sm font-medium text-primary hover:text-primary-800 transition-colors"
+          >
             FAQ
           </a>
         </nav>
 
         <div className="flex items-center gap-3 shrink-0">
-          <Button variant="default" className="hidden sm:inline-flex" onClick={() => window.open('https://app.iwilltilimwell.com/login', '_blank')}>
+          <Button
+            variant="default"
+            className="hidden sm:inline-flex"
+            onClick={() =>
+              window.open("https://app.iwilltilimwell.com/login", "_blank")
+            }
+          >
             Sign In
           </Button>
-          <Button variant="accent" className="w-auto" onClick={() => window.open('https://app.iwilltilimwell.com/register', '_blank')}>
+          <Button
+            variant="accent"
+            className="w-auto"
+            onClick={() =>
+              window.open("https://app.iwilltilimwell.com/register", "_blank")
+            }
+          >
             Get Started
           </Button>
         </div>

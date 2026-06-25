@@ -18,7 +18,8 @@ const dancingScript = Dancing_Script({
 
 export const metadata: Metadata = {
   title: "NABV Member Access | iWILL 'til I'm Well",
-  description: "Unlock your NABV-negotiated virtual care benefit. Whole-family medical, behavioral health, and TeleVet — already secured for you.",
+  description:
+    "Unlock your NABV-negotiated virtual care benefit. Whole-family medical, behavioral health, and TeleVet — already secured for you.",
 };
 
 export default function RootLayout({
@@ -31,7 +32,12 @@ export default function RootLayout({
       lang="en"
       className={`${dmSans.variable} ${dancingScript.variable} h-full antialiased`}
     >
-      <body className="min-h-screen flex flex-col bg-background text-foreground">{children}</body>
+      <body
+        className="min-h-screen flex flex-col bg-background text-foreground"
+        suppressHydrationWarning
+      >
+        {children}
+      </body>
     </html>
   );
 }
