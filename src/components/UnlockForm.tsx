@@ -218,9 +218,9 @@ export function UnlockForm() {
             <p className="text-gray-600">
               Takes 30 seconds. No payment. No password. Just your member code.
             </p>
-            <div className="inline-flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full text-sm font-bold mt-4">
+            {/* <div className="inline-flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full text-sm font-bold mt-4">
               Promo Code: {PROMO_CODE}
-            </div>
+            </div> */}
           </div>
 
           <form
@@ -352,7 +352,7 @@ export function UnlockForm() {
                     {
                       value: "family",
                       label: "Family",
-                      price: "$55/mo",
+                      price: "$50/mo",
                       desc: "Up to 8 people",
                     },
                   ].map((option) => (
