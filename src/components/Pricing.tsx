@@ -124,7 +124,7 @@ export function Pricing() {
 
         <div className="mt-12 text-center">
           <p className="text-sm text-gray-500 max-w-2xl mx-auto">
-            <strong>Promo code: NABV000</strong> — Applied automatically when
+            <strong>Promo code</strong> — Applied automatically when
             you unlock below. Code is also emailed for recovery. Enter it at
             checkout on app.iwilltilimwell.com/register.
           </p>
