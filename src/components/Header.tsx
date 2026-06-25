@@ -4,6 +4,10 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export function Header() {
+  const paypalDonateUrl =
+    process.env.NEXT_PUBLIC_PAYPAL_DONATE_URL ??
+    "https://www.paypal.com/ncp/payment/83ZFTP5CLTNF4";
+
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-primary-100">
       <div className="container-main flex items-center justify-between h-20 gap-4">
@@ -60,6 +64,7 @@ export function Header() {
           >
             Sign In
           </Button>
+
           <Button
             variant="accent"
             className="w-auto"
@@ -68,6 +73,15 @@ export function Header() {
             }
           >
             Get Started
+          </Button>
+          <Button
+            variant="outline"
+            className="hidden sm:inline-flex"
+            onClick={() =>
+              window.open(paypalDonateUrl, "_blank", "noopener,noreferrer")
+            }
+          >
+            Donate
           </Button>
         </div>
       </div>

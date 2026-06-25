@@ -8,6 +8,7 @@ import { AffiliateReward } from "@/components/AffiliateReward";
 import { Testimonial } from "@/components/Testimonial";
 import { FAQ } from "@/components/FAQ";
 import { UnlockForm } from "@/components/UnlockForm";
+import { DonateSection } from "@/components/DonateSection";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         <Testimonial />
         <FAQ />
         <UnlockForm />
+        <DonateSection />
       </main>
       <Footer />
     </div>
