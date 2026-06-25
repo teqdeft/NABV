@@ -22,7 +22,7 @@ type FormData = {
 type FormErrors = Partial<FormData>;
 
 const PROMO_CODE = "NABV000";
-const SIGNUP_URL = "https://dev.iwilltilimwell.com";
+const SIGNUP_URL = "https://app.iwilltilimwell.com/register";
 const LEAD_ENDPOINT = "[INSERT_LEAD_ENDPOINT]";
 
 export function UnlockForm() {

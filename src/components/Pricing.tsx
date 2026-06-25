@@ -11,8 +11,8 @@ const plans = [
     description: "Perfect for solo members",
     features: [
       "Unlimited Medical visits",
-      "Unlimited Clinically Determined Behavioral Health visits",
-      "Unlimited TeleVet consults, For a low Extra of $20",
+      "Clinically Determined Behavioral Health visits",
+      "Unlimited TeleVet consults for a low Extra of $20",
       "1 member covered",
       "No copays, no deductibles",
       "Cancel anytime",
