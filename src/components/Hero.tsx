@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Shield, Users, HeartPulse, Stethoscope } from "lucide-react";
+import { ArrowRight, Shield, Users, HeartPulse } from "lucide-react";
 import Image from "next/image";
 
 export function Hero() {
@@ -75,28 +75,13 @@ export function Hero() {
 
           <div className="relative animate-fade-up" style={{ animationDelay: "0.5s" }}>
             <div className="relative aspect-[4/3] max-w-lg mx-auto lg:mx-0 rounded-2xl overflow-hidden shadow-2xl bg-primary-100">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-accent/10" />
               <Image
-                src="/images/hero-family-care.svg"
-                alt="Family using virtual care on tablet with doctor on screen"
+                src="/images/NABV-HERO-IMAGE.png"
+                alt="Whole-family virtual care for NABV members"
                 fill
                 className="object-cover relative z-10"
                 priority
               />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="bg-white/95 backdrop-blur-sm rounded-xl p-6 max-w-sm mx-4 text-center shadow-xl">
-                  <div className="flex items-center justify-center gap-3 mb-4">
-                    <div className="w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center">
-                      <Stethoscope className="w-6 h-6 text-primary" />
-                    </div>
-                    <div className="w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center">
-                      <HeartPulse className="w-6 h-6 text-primary" />
-                    </div>
-                  </div>
-                  <p className="font-semibold text-gray-900 mb-1">Dr. Sarah Chen, MD</p>
-                  <p className="text-sm text-gray-500">Family Medicine • Available now</p>
-                </div>
-              </div>
             </div>
             
             <div className="absolute -bottom-6 -left-6 lg:-left-10 w-32 h-32 rounded-full bg-warm-bg/50 animate-float-slow" aria-hidden="true" />

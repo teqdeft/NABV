@@ -34,7 +34,7 @@ export function DonateSection() {
 
           <Button
             variant="accent"
-            className="w-auto bg-green-500 texxt-white"
+            className="w-auto bg-green-500 hover:bg-green-600 text-white"
             onClick={() =>
               window.open(paypalDonateUrl, "_blank", "noopener,noreferrer")
             }
